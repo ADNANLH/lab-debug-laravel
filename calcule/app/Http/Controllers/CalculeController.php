@@ -11,6 +11,7 @@ class CalculeController extends Controller
     {
         $a = 5;
         $b = 10;
+        // dd(phpinfo());
 
         $result = $this->add($a, $b);
 
